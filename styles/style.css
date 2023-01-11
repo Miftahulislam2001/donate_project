@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner Section Start */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner3.png');
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+   
+}
+.bennar-details{
+ 
+}
+.banner-title{
+  font-size: 60px;
+    
+}
+.banner-desc{
+  margin: 10px 0px;
+}
+.primary-btn{
+  color: white;
+  background: #FF5959;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+/* Banner Section End */
+
+/* Today Section Start */
+.today-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.today-section h2{
+font-size: 30px;
+}
+.today-section p{
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+}
+/* Today Section End */
+
+/* Amount Section Start */
+.amount-container{
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.amount ,.amount-other{
+  width: 60px;
+  height: 60px;
+  background: wheat;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #707070;
+  background: #f3f0f0;
+  border-radius: 5px;
+  padding: 10px 0px;
+
+}
+.amount-other{
+  border: 1px solid#FF5959;
+  color: #FF5959;
+  background: #FFEEEE;
+  
+
+}
+.hr{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+.hr p{
+  margin-bottom: 10px;
+  color: #B3B3B3;
+}
+hr{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* Amount Section End */
+
+/* Card Section Start */
+.plan-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.card{
+  width: 300px;
+  height: 250px;
+  background: rgba(79, 157, 166, 0.1);
+}
+.card img{
+  margin: 20px;
+}
+.card-title{
+  margin: 20px;
+}
+.card-desc{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 20px;
+}
+
+
+/* Card Section End */
